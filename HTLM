@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ciobotariu Maria Ecaterina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="hero" class="row hero-row">
+        <h1>Ciobotariu Maria Ecaterina</h1>
+        <h2>PORTFOLIO</h2>
+        <a href="#about" class="scroll-arrow">↓</a>
+    </header>
+
+    <nav class="row nav-row">
+        <ul>
+            <li><a href="index.html" class="active">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="about" class="row about-row">
+        <h2>About me</h2>
+        <p>My work focuses on the concept of comfort. I concentrate on elements that evoke comfort and well-being. These include sectors such as wellness, beauty, NGOs, the hospitality and catering industry (HORECA), and corporate environments, all possessing an organic and vibrant essence.</p>
+        
+        <div class="category-tags">
+            <span>Branding</span> | <span>Social Media</span> | <span>Advertisement</span>
+        </div>
+    </main>
+
+</body>
+</html>
