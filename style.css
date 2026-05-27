@@ -1,0 +1,173 @@
+/* --- GLOBAL STYLES (Applies to everything) --- */
+body {
+    /* Uses standard fonts available on all computers */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Removes default browser margins */
+    margin: 0;
+    /* Sets the organic, comforting background color you requested */
+    background-color: #FAF8F5;
+    /* Sets standard text color to a soft dark gray */
+    color: #333333;
+}
+
+/* --- ROW PRINCIPLE LAYOUT --- */
+/* This class ensures every major section has consistent width and spacing */
+.row {
+    max-width: 900px;
+    /* 'margin: 0 auto' centers the row on the screen */
+    margin: 0 auto;
+    /* Adds padding to the sides so text doesn't touch the edge of the screen */
+    padding: 0 20px;
+}
+
+/* --- HERO SECTION (index.html) --- */
+.hero-row {
+    text-align: center;
+    /* Top and bottom spacing */
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.hero-row h1 {
+    font-size: 32px;
+    /* Spreads the letters out slightly */
+    letter-spacing: 2px;
+}
+
+.hero-row h2 {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+.scroll-arrow {
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* --- NAVIGATION MENU --- */
+.nav-row {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.nav-row ul {
+    /* Removes standard bullet points from the list */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-row li {
+    /* Puts the list items side-by-side horizontally */
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-row a {
+    text-decoration: none;
+    color: #888;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Changes the color of the link when you hover over it or when it is the active page */
+.nav-row a:hover, .nav-row a.active {
+    color: #333;
+}
+
+/* --- ABOUT SECTION (index.html) --- */
+.about-row {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.about-row p {
+    font-size: 16px;
+    /* Increases space between lines to make reading comfortable */
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.category-tags {
+    font-size: 14px;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+/* --- PROJECTS/GALLERY (projects.html) --- */
+.projects-row {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.gallery-title {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.project-item {
+    margin-bottom: 60px;
+}
+
+.project-image {
+    /* Makes sure images don't overflow the screen width */
+    max-width: 100%;
+    /* Sets a fixed height so the boxes look consistent, matching your PDF */
+    height: 400px;
+    /* Adds a background color (matching your PDF) to act as a placeholder if the image doesn't load */
+    background-color: #9b6a6c;
+    /* Ensures the image fills the 400px box evenly */
+    object-fit: cover;
+    /* Slightly rounds the corners */
+    border-radius: 4px;
+}
+
+.project-item p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+/* --- CONTACT SECTION (contact.html) --- */
+.contact-row {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.contact-row h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-row h2 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.social-handle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.button {
+    /* Makes the link look like a clickable box */
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
