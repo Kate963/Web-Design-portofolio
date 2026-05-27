@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="row nav-row">
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="row projects-row">
+        <h2 class="gallery-title">Some popcorn while you browse! /</h2>
+        
+        <div class="project-item">
+            <img src="image1.jpg" alt="QUBE Events" class="project-image">
+            <p>QUBE Events</p>
+        </div>
+
+        <div class="project-item">
+            <img src="image2.jpg" alt="Tinerii Vorbesc" class="project-image">
+            <p>Tinerii Vorbesc</p>
+        </div>
+
+        <div class="project-item">
+            <img src="image3.jpg" alt="KEIDA" class="project-image">
+            <p>KEIDA</p>
+        </div>
+    </main>
+
+</body>
+</html>
